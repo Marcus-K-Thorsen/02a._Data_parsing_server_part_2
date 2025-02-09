@@ -17,7 +17,7 @@ There should be an endpoint for each: XML, CSV YAML, TXT and JSON.
 
 
 # Python
-https://github.com/Marcus-K-Thorsen/01a._Data_parsing_servers_part_1/blob/main/py-server-app/README.md
+https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/py-server-app/README.md
 
 # JavaScript
 https://github.com/Marcus-K-Thorsen/01a._Data_parsing_servers_part_1/blob/main/js-server-app/README.md
