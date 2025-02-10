@@ -16,8 +16,28 @@ There should be an endpoint for each: XML, CSV YAML, TXT and JSON.
 <img src="./Data_parsing_server_Part_II.png">
 
 
+I decided to make a data parsing server for both python and javascript, 
+because I wanted to train what we had already done, 
+and as a note for how to do it with either.
+
+
 # Python
 https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/py-server-app/README.md
 
+**Base Python URL**: localhost:8000/py
+
+
+
 # JavaScript
 https://github.com/Marcus-K-Thorsen/01a._Data_parsing_servers_part_1/blob/main/js-server-app/README.md
+
+**Base Javascript URL**: localhost:8080/js
+
+
+# Endpoints
+
+* **/csv**
+* **/json**
+* **/txt**
+* **/xml**
+* **/yaml**

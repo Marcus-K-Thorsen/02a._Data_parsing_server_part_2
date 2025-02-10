@@ -19,13 +19,14 @@ CORS_SETTINGS = {
 
 app.add_middleware(CORSMiddleware, **CORS_SETTINGS)
 
-app.include_router(csv_router)
-app.include_router(json_router)
-app.include_router(text_router)
-app.include_router(xml_router)
-app.include_router(yaml_router)
+
+app.include_router(csv_router, prefix='/py')
+app.include_router(json_router, prefix='/py')
+app.include_router(text_router, prefix='/py')
+app.include_router(xml_router, prefix='/py')
+app.include_router(yaml_router, prefix='/py')
 
 
-@app.get("/")
+@app.get("/py")
 def read_root():
-    return { "data": "Hello world" }
+    return { "data": "Root Python Route" }

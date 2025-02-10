@@ -2,35 +2,39 @@
 
 ## Initial Setup
 ```bash
-$ poetry init -n
-$ poetry install --no-root
-$ poetry add pyyaml
-$ poetry add xmltodict
-$ poetry add pandas
-$ poetry add fastapi
-$ poetry add uvicorn
+ $ cd <project_directory>
+ $ cd py-server-app
+ $ poetry init -n
+ $ poetry install --no-root
+ $ poetry add pyyaml
+ $ poetry add xmltodict
+ $ poetry add pandas
+ $ poetry add fastapi
+ $ poetry add uvicorn
 ```
 
 ## Install
 ```bash
-$ cd <project_directory>
-$ cd py-server-app
-$ poetry install
+ $ cd <project_directory>
+ $ cd py-server-app
+ $ poetry install
 ```
 
 ## Usage
 ```bash
-$ poetry run uvicorn main:app --reload
+ $ cd <project_directory>
+ $ cd js-server-app
+ $ poetry run uvicorn main:app --reload
 ```
 
 ## Deactivating the Virtual Environment
 If you have activated the Poetry shell using `poetry shell`, you can deactivate it using:
 ```bash
-$ deactivate
+ $ deactivate
 ```
 or
 ```bash
-$ exit
+ $ exit
 ```
 
 ### Explanation

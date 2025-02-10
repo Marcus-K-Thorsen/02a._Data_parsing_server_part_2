@@ -1,0 +1,20 @@
+{
+  "name": "js-server-app",
+  "version": "1.0.0",
+  "description": "```bash\r  $ cd <project_directory>\r  $ cd js-server-app\r  $ npm init -y\r  $ npm install fs yaml fast-xml-parser csv-parser\r  $ npm i express\r ```\r Add key-value pair \"type\": \"module\" in 'package.json'.\r Created index.js and all other needed files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "express": "^4.21.2",
+    "fast-xml-parser": "^4.5.1",
+    "fs": "^0.0.1-security",
+    "yaml": "^2.7.0"
+  }
+}
