@@ -27,6 +27,13 @@ https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/py
 **Base Python URL**: localhost:8000/py
 
 
+# Endpoints
+
+* **/csv/py**
+* **/json/py**
+* **/txt/py**
+* **/xml/py**
+* **/yaml/py**
 
 # JavaScript
 https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/js-server-app/README.md
@@ -38,8 +45,8 @@ https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/js
 
 # Endpoints
 
-* **/csv**
-* **/json**
-* **/txt**
-* **/xml**
-* **/yaml**
+* **/csv/js**
+* **/json/js**
+* **/txt/js**
+* **/xml/js**
+* **/yaml/js**
