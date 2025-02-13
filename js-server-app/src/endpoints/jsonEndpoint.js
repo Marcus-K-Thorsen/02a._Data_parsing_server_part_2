@@ -3,7 +3,7 @@ import parseJson from '../parser_module/jsonParser.js';
 
 const router = express.Router();
 
-router.get("/json", (req, res) => {
+router.get("/js", (req, res) => {
     res.send({ data: parseJson() });
 });
 

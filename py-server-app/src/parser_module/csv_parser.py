@@ -22,7 +22,7 @@ def parse_csv() -> Person | list[Person]:
                 person_data[column] = float(value)
             else:
                 person_data[column] = value.strip() if isinstance(value, str) else value
-        persons.append(Person(**person_data))
+        persons.append(Person(**person_data, file_type="csv"))
     
     # Uncomment the following line to return a list of Person objects
     # return persons'

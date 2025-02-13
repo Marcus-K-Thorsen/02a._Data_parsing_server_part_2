@@ -22,4 +22,4 @@ def parse_xml() -> Person:
         else:
             person_data[key] = value
 
-    return Person(**person_data)
+    return Person(**person_data, file_type="xml")

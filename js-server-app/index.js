@@ -7,11 +7,11 @@ import yamlRouter from './src/endpoints/yamlEndpoint.js';
 
 const app = express();
 
-app.use('/js', csvRouter);
-app.use('/js', jsonRouter);
-app.use('/js', txtRouter);
-app.use('/js', xmlRouter);
-app.use('/js', yamlRouter);
+app.use('/csv', csvRouter);
+app.use('/json', jsonRouter);
+app.use('/txt', txtRouter);
+app.use('/xml', xmlRouter);
+app.use('/yaml', yamlRouter);
 
 
 app.get("/js", (req, res) => {

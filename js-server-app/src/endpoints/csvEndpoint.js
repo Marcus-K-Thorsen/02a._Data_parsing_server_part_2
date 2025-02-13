@@ -3,7 +3,7 @@ import parseCsv from '../parser_module/csvParser.js';
 
 const router = express.Router();
 
-router.get("/csv", (req, res) => {
+router.get("/js", (req, res) => {
     res.send({ data: parseCsv() });
 });
 

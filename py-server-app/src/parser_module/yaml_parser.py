@@ -13,4 +13,4 @@ def parse_yaml() -> Person:
 
     person_data = yaml.safe_load(yaml_text)
 
-    return Person(**person_data)
+    return Person(**person_data, file_type="yaml")

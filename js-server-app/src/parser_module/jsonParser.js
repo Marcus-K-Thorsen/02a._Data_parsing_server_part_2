@@ -13,7 +13,7 @@ const parseJson = () => {
 
     const personData = JSON.parse(jsonText);
 
-    return new Person(personData.name, personData.weight, personData.hobbies);
+    return new Person(personData.name, personData.weight, personData.hobbies, "json");
 }
 
 export default parseJson;

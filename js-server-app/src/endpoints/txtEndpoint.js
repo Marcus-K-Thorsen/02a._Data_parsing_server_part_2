@@ -3,7 +3,7 @@ import parseTxt from '../parser_module/txtParser.js';
 
 const router = express.Router();
 
-router.get("/txt", (req, res) => {
+router.get("/js", (req, res) => {
     res.send({ data: parseTxt() });
 });
 

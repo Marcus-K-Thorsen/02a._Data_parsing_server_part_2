@@ -21,6 +21,18 @@ class Person(BaseModel):
         examples=[["reading", "swimming"]]
     )
     
+    file_type: str = Field(
+        default=...,
+        description="The file type the person is from.",
+        examples=["json"]
+    )
+    
+    language: str = Field(
+        default="python",
+        description="The programming language the person is from.",
+        examples=["python"]
+    )
+    
     model_config = ConfigDict(from_attributes=True)
     
     @field_validator("weight")

@@ -3,7 +3,7 @@ import parseYaml from '../parser_module/yamlParser.js';
 
 const router = express.Router();
 
-router.get("/yaml", (req, res) => {
+router.get("/js", (req, res) => {
     res.send({ data: parseYaml() });
 });
 

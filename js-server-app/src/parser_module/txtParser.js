@@ -36,7 +36,7 @@ const parseText = () => {
         personData[dataKey] = dataValue;
     });
 
-    return new Person(personData.name, personData.weight, personData.hobbies);
+    return new Person(personData.name, personData.weight, personData.hobbies, "txt");
 };
 
 export default parseText;

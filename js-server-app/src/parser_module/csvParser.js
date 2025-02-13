@@ -40,7 +40,7 @@ const parseCsv = () => {
 
     //return data;
 
-    return new Person(personData.name, personData.weight, personData.hobbies);
+    return new Person(personData.name, personData.weight, personData.hobbies, "csv");
 };
 
 export default parseCsv;

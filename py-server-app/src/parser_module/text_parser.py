@@ -28,4 +28,4 @@ def parse_txt() -> Person:
         
         person_data[data_key] = data_value
 
-    return Person(**person_data)
+    return Person(**person_data, file_type="txt")

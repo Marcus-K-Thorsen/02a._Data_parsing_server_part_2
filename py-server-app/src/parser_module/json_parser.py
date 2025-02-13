@@ -13,4 +13,4 @@ def parse_json() -> Person:
 
     person_data = json.loads(json_text)
 
-    return Person(**person_data)
+    return Person(**person_data, file_type="json")

@@ -14,7 +14,7 @@ const parseYaml = () => {
 
     const personData = yaml.parse(yamlText);
 
-    return new Person(personData.name, personData.weight, personData.hobbies);
+    return new Person(personData.name, personData.weight, personData.hobbies, "yaml");
 }
 
 export default parseYaml;

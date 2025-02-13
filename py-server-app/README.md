@@ -23,7 +23,7 @@
 ## Usage
 ```bash
  $ cd <project_directory>
- $ cd js-server-app
+ $ cd py-server-app
  $ poetry run uvicorn main:app --reload
 ```
 
