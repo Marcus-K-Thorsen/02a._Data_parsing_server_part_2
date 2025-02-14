@@ -3,7 +3,7 @@
 ## Initial Setup
 ```bash
  $ cd <project_directory>
- $ cd py-server-app
+ $ cd py_server_a
  $ poetry init -n
  $ poetry install --no-root
  $ poetry add pyyaml
@@ -16,14 +16,14 @@
 ## Install
 ```bash
  $ cd <project_directory>
- $ cd py-server-app
+ $ cd py_server_a
  $ poetry install
 ```
 
 ## Usage
 ```bash
  $ cd <project_directory>
- $ cd py-server-app
+ $ cd py_server_a
  $ poetry run uvicorn main:app --reload
 ```
 

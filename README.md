@@ -16,18 +16,17 @@ There should be an endpoint for each: XML, CSV YAML, TXT and JSON.
 <img src="./Data_parsing_server_Part_II.png">
 
 
-I decided to make a data parsing server for both python and javascript, 
-because I wanted to train what we had already done, 
-and as a note for how to do it with either.
+I decided to make a data parsing server A in Python and the data parsing server B in JavaScript. 
+Remember to start start both servers to be able to communicate with them both.
 
 
 # Python
-https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/py-server-app/README.md
+https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/py_server_a/README.md
 
-**Base Python URL**: localhost:8000/py
+**Base Python URL**: localhost:8000
 
 
-# Endpoints
+# Endpoints to get the data from Server A (Python_Server)
 
 * **/csv/py**
 * **/json/py**
@@ -35,18 +34,15 @@ https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/py
 * **/xml/py**
 * **/yaml/py**
 
-# JavaScript
-https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/js-server-app/README.md
 
-
-
-**Base Javascript URL**: localhost:8080/js
-
-
-# Endpoints
+# Endpoints to get data through Server B (JavaScript_Server)
 
 * **/csv/js**
 * **/json/js**
 * **/txt/js**
 * **/xml/js**
 * **/yaml/js**
+
+# JavaScript
+https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/js_server_b/README.md
+
