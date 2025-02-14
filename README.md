@@ -23,7 +23,7 @@ Remember to start start both servers to be able to communicate with them both.
 # Python
 https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/py_server_a/README.md
 
-**Base Python URL**: localhost:8000
+**Base Python URL**: 127.0.0.1:8000
 
 
 # Endpoints to get the data from Server A (Python_Server)
@@ -43,6 +43,6 @@ https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/py
 * **/xml/js**
 * **/yaml/js**
 
-# JavaScript
-https://github.com/Marcus-K-Thorsen/02a._Data_parsing_server_part_2/blob/main/js_server_b/README.md
+# JavaScript Server B GitHub Link
+https://github.com/Marcus-K-Thorsen/03a._Data_parsing_server_part_3.git
 

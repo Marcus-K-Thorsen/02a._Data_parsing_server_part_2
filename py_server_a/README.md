@@ -11,6 +11,7 @@
  $ poetry add pandas
  $ poetry add fastapi
  $ poetry add uvicorn
+ $ poetry add requests
 ```
 
 ## Install
