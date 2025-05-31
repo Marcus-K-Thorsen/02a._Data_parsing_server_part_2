@@ -12,14 +12,13 @@ def parse_xml() -> Person:
         xml_text = file.read()
 
     parsed_person_data = xmltodict.parse(xml_text)["person"]
-    person_data = {}
-
-    for key, value in parsed_person_data.items():
-        if key == "hobbies":
-            person_data[key] = [item.strip() for item in value["hobby"]]
-        elif isinstance(value, str) and value.replace('.', '', 1).isdigit():
-            person_data[key] = float(value)
-        else:
-            person_data[key] = value
+    if not parsed_person_data and not isinstance(parsed_person_data, dict):
+        raise ValueError("No person data found in the XML file.")
+    
+    person_data = {
+        "name": parsed_person_data.get("name", ""),
+        "weight": parsed_person_data.get("weight", 0.0),
+        "hobbies": parsed_person_data.get("hobbies", {}).get("hobby", [])
+    }
 
     return Person(**person_data, file_type="xml")
